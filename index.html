@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Selector</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/css/bootstrap.min.css"
+        integrity="sha512-wXB8W5n5pmTykQu17yU+7KU8fw6J4Zcy1tiX9Dfc/NM4nlq3aQkVfLgvt+B1GvHxag+LdyV7m1meXlDv7A50jg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+    <div class="container text-center">
+        <h1 class="mb-5">Select a Portfolio</h1>
+        <div class="portfolio-container">
+            <div class="portfolio-item">
+                <a href="mon.html"><img id="monImg" src="./img/huh-cat-huh-m4rtin.png" onmouseover="ChangeImg(1,this)" onmouseout="ChangeImg(2,this)"></a>
+                
+                <a href="mon.html" class="portfolio-link">Naris Pongpithak</a>
+            </div>
+            <div class="portfolio-item">
+                <img src="https://ih1.redbubble.net/image.2772946683.3854/flat,750x,075,f-pad,750x1000,f8f8f8.jpg" >
+                <a href="best.html" class="portfolio-link">Sittisat Chaiyahan</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="index.js"></script>
+</html>

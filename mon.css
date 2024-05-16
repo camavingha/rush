@@ -1,0 +1,16 @@
+.link {
+  color: rgb(255, 255, 255);
+  text-decoration:none;
+  font-weight:400
+}
+.link:hover {
+  color: rgb(0, 96, 252);
+  font-weight:400;
+
+  text-decoration:none;
+}
+body {
+  font-family: 'Kanit', sans-serif;
+  background-color: #f8f9fa;
+  
+}

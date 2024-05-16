@@ -1,0 +1,83 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: "Georgia", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.navbar-toggler {
+    display: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    background-color: #343a40;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; 
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.navbar-brand:hover {
+    color: rgb(207, 8, 8);
+}
+.nav-link {
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+    font-size: 0.75rem;
+    transition: color 0.3s ease;
+    padding: 17px;
+    padding-right: 35px;
+
+}
+
+.nav-link:hover {
+    color: #0be241;
+}
+
+.section {
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.section-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin: 1rem 0;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-1 {
+        margin-bottom: 10px;
+    }
+
+    .navbar-brand {
+        font-size: 1.2rem; 
+    }
+
+    .nav-link {
+        padding: 10px;
+    }
+}

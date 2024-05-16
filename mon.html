@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/css/bootstrap.min.css"
+        integrity="sha512-wXB8W5n5pmTykQu17yU+7KU8fw6J4Zcy1tiX9Dfc/NM4nlq3aQkVfLgvt+B1GvHxag+LdyV7m1meXlDv7A50jg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="mon.css">
+
+    <script src="mon.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Portfolio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container-fluid text-center py-5 my-3 bg-dark">
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <div class="profile-picture rounded-circle mb-3">
+                        <img src="./img/my image.png" class="img-fluid" style="width: 20%;">
+                    </div>
+                    <h1 class="text-white">Naris Pongpithak</h1>
+                    <p class="text-muted">Age 22</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="about">
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-md-8 mx-auto text-center">
+                        <h2>About Me</h2>
+                        <p class="lead" style="font-family: 'Kanit', sans-serif;">ผมนายนริศ พงษ์พิทักษ์ ชื่อเล่น ม่อน
+                            เป็นนักศึกษาคณะเทคโนโลยีสารสนเทศ จากสถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง
+                            มีความสามารถในการเขียนโปรแกรม ทำเกม ทำเว็บไซต์ โดยผมสามารถเขียนได้หลายภาษา
+                            และมีความสามารถพิเศษในการใช้โปรแกรม maya ในการปั้น Model, Rigging และทำ Animation
+                            และนอกจากนั้นยังสามารถใช้โปรแกรม Unreal Engine ในการพัฒนาเกมต่างๆได้อีกด้วย</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="portfolio">
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-md-8 mx-auto text-center">
+                        <h2>Portfolio</h2>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-md-4">
+                        <div class="card mb-4">
+                            <img src="./img/project_huay.png" alt="Project 1" class="card-img-top">
+                            <div class="card-body" style="font-family: 'Kanit', sans-serif;">
+                                <h5 class="card-title">มิตรรักนักสุ่ม</h5>
+                                <p class="card-text">
+                                    โปรเจกต์นี้เป็นโปรเจกต์เว็บที่ทำออกมาโดยมีหัวข้อเป็นประวัติศาสตร์ของหวย
+                                    โดยโปรเจกต์นี้จะเล่าประวัติศาสตร์ของหวยในรูปแบบของเกมที่ทำขึ้นผ่านตัวเว็บไซต์</p>
+                                <a href="https://mitrlovenaksum.netlify.app/" class="btn btn-primary"
+                                    target="_blank">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4">
+                            <img src="./img/UXO.png" alt="Project 2" class="card-img-top">
+                            <div class="card-body" style="font-family: 'Kanit', sans-serif;">
+                                <h5 class="card-title">UXO</h5>
+                                <p class="card-text">โปรเจกต์นี้เป็นโปรเจกต์ทำเกม Tic tac toe บนเว็บ
+                                    โดยเกมที่ทำออกมาจะต้องแปลกใหม่ไม่เหมือนใคร โดยเกมนี้ได้นำเกม Tic tac toe และ UNO
+                                    มารวมกันจนออกมาเป็นโปรเจกต์นี้</p>
+                                <a href="https://show-uxo.web.app/" class="btn btn-primary" target="_blank">View
+                                    Project</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4">
+                            <img src="./img/deoh.png" alt="Project 3" class="card-img-top">
+                            <div class="card-body" style="font-family: 'Kanit', sans-serif;">
+                                <h5 class="card-title">DevilKitchenOfHell</h5>
+                                <p class="card-text">โปรเจกต์นี้จะเป็นโปรเจกต์ที่ทำเกมโดยใช้ Unreal Engine 4
+                                    โดยเกมนี้เป็นเกมแนว Hack and Slash <br> โปรเจกต์นี้เป็นเพียงแค่ตัว Demo เท่านั้น เนื่องจากระยะเวลาทำมีแค่ 2 เดือน</p>
+                                <a href="https://youtu.be/6eVGELykrXk" class="btn btn-primary" target="_blank">View
+                                    Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4">
+                            <img src="./img/model truck.png " alt="Project 4" class="card-img-top">
+                            <div class="card-body" style="font-family: 'Kanit', sans-serif;">
+                                <h5 class="card-title">Vehicle Animation</h5>
+                                <p class="card-text">โปรเจกต์นี้จะเป็นจะเป็นการปั้นโมเดลโดยใช้โปรแกรม Maya
+                                    โดยโปรเจกต์นี้ทำตั้งแต่ปั้นโมเดล ลง Texture, Rigging และทำอนิเมชัน
+                                    จนผลงานออกมาเป็นรถบรรทุกติดอาวุธกำลังขับอยู่บนถนน</p>
+                                <a href="https://youtu.be/yZEPzXZkHa0" class="btn btn-primary" target="_blank">View
+                                    Project</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mb-4">
+                            <img src="./img/pro_image/2 - Copy.jpg " alt="Project 5" class="card-img-top">
+                            <div class="card-body" style="font-family: 'Kanit', sans-serif;">
+                                <h5 class="card-title">3D Interior Room</h5>
+                                <p class="card-text">โปรเจกต์นี้จะเป็นจะเป็นการปั้นโมเดลโดยใช้โปรแกรม Maya
+                                    โดยโปรเจกต์นี้ทำตั้งแต่ปั้นโมเดล ลง Texture, Rigging และทำอนิเมชัน
+                                    จนผลงานออกมาเป็นรถบรรทุกติดอาวุธกำลังขับอยู่บนถนน</p>
+                                <a href="3D_Interior.html" class="btn btn-primary">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mb-4">
+                            <img src="./img/GameSp.png " alt="Project 6" class="card-img-top">
+                            <div class="card-body" style="font-family: 'Kanit', sans-serif;">
+                                <h5 class="card-title">FasterThanFire</h5>
+                                <p class="card-text">โปรเจกต์นี้จะเป็นเกม VR ที่ทำขึ้นมาเพื่อให้ความสนุก และให้ความรู้เกี่ยวกับสถานการณ์ไฟไหม้ โดยเกมนี้พัฒนาด้วย Unreal Engine 5.1 โดยด่านภายในเกมจะอิงมาจากตึกคณะ IT ของ KMITL</p>
+                                <a href="https://youtu.be/G9PqtwxnNww?si=mBZ-hR2Fj5buIDSp" class="btn btn-primary">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="contact" class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 mx-auto text-center">
+                    <h2>Contact Me</h2>
+                    <p class="lead mb-4"><i class="bi bi-facebook"></i>&nbsp;<a class="link"
+                            href="https://www.facebook.com/profile.php?id=100005759203644" target="_blank"> Mon Mon</a>
+                    </p>
+                    <ul class="list-inline mt-3 ">
+                        <li><i class="bi bi-envelope me-3"></i> Email: <a href="mailto:youremail@example.com"
+                                class="link">NarisP@gmail.com</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i
+                                class="bi bi-telephone me-3"></i> Phone: 064117xxxx </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
